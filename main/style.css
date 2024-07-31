@@ -1,0 +1,350 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.create_ad {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.header_order {
+    text-decoration: none;
+}
+
+.favorites_text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.item {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+}
+
+.header_button-link{
+    color: white;
+}
+
+.header_favorites1 {
+    text-decoration: none;
+    color: white;
+}
+
+.header_favorites {
+    display: block;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.header_logo-pic {
+    width: 200px;
+    height: 52px;
+}
+
+.social_media {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.insta_logo {
+    width: 35px;
+    height: 35px;
+    padding-right: 30px;
+}
+
+.whatsapp_logo {
+    width: 35px;
+    height: 35px;
+}
+
+.contacts {
+    width: 220px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact_number {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: medium;
+}
+
+.header_search {
+    width: Fill (375px)px;
+    padding-top: 50px;
+}
+
+.header {
+    background-image: url(../main/img/Rectangle\ 1.png);
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 30px;
+}
+
+.card {
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    padding-left: 100px;
+    margin-bottom: 50px;
+    border-top: 1px solid rgb(100, 99, 99);
+    border-bottom: 1px solid rgb(100, 99, 99);
+    border-left: 1px solid rgb(100, 99, 99);
+    border-right: 1px solid rgb(100, 99, 99);
+}
+
+.button_search {
+    width: 100px;
+    height: 34px;
+    font-size: large;
+    border-radius: 5%;
+}
+
+#header_auto-input {
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    margin-right: 20px; 
+    border-radius: 5%;
+}
+
+#header_price-input-from {
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    margin-right: 20px; 
+    border-radius: 5%;
+}
+
+#header_price-input-till {
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    margin-right: 20px; 
+    border-radius: 5%;
+}
+
+.label {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 20px; 
+}
+
+#sort {
+    width: 280px;
+    height: 35px;
+    font-size: large;
+    text-align: center;
+    margin-right: 20px; 
+    border-radius: 5%;
+}
+
+#search_input1 {
+    height: 50px;
+    width: 100px;
+}
+#search_input2 {
+    height: 50px;
+    width: 100px;
+}
+#search_input3 {
+    height: 50px;
+    width: 100px;
+}
+.search {
+    height: 35px;
+    padding-left: 30px;
+}
+
+.container {
+    padding-top: 3%;
+    /* background-color: grey; */
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-image: url(../main/img/svg/bmw-4612551_1280.jpg) */
+}
+
+.img_bmwf15 {
+    padding-top: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.header_order {
+    color: white;
+}
+
+.slogan {
+    padding-top: 5%;
+    width: 735px;
+}
+
+.header_search {
+    padding-left: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #F1F0EB;
+}
+
+.find {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.premium {
+    padding-left: 30px;
+}
+
+.pictures {
+    margin-top: 50px;
+    margin-left: 150px;
+    /* height: 700px; */
+    /* width: 1500px; */
+    display: flex;
+    /* justify-content:; */
+}
+
+.img1 {
+    width: 750px;
+    padding-right: 50px;
+}
+
+.img2 {
+    height: 350px;
+    width: 750px;
+    /* margin-left: 50px; */
+}
+
+.img3 {
+    height: 350px;
+    width: 750px;
+    display: flex;
+    padding-top: 25px;
+}
+
+.hot_deals_img {
+    width: 251px;
+    height: 30px;
+    padding-left: 815px;
+    padding-top: 50px;
+    /* padding-bottom: 10px; */
+}
+
+.search_input1 {
+    height: 20px;
+}
+
+.search_input2 {
+    height: 20px;
+}
+
+.maserati {
+    padding-left: 180px;
+    width: 1500px;
+    height: 700px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.how_to_bye_img {
+    padding-left: 285px;
+    width: 1300px;
+    height: 600px;
+}
+
+.audi_r8_div {
+    position: relative;
+    display: inline-block;
+}
+
+.audi_r8 {
+    display: block;
+    padding-left: 210px; 
+    padding-top: 50px;
+    width: 1450px;
+    height: 680px;
+}
+
+.car_cards {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; 
+    padding-left: 200px; 
+    padding-top: 50px;
+}
+
+.cards img {
+    position: absolute;
+    width: 100px; 
+    height: auto; 
+    pointer-events: auto; 
+}
+
+.car_card1 {
+    padding-top: 340px;
+    padding-left: 80px;
+    padding-right: 10px;
+    top: 10%;
+    left: 10%;
+}
+
+.car_card2 {
+    top: 10%;
+    left: 25%;
+    padding-right: 10px;
+}
+
+.car_card3 {
+    top: 25%;
+    left: 10%;
+    padding-right: 10px;
+}
+
+.car_card4 {
+    top: 25%;
+    left: 25%;
+    
+}
+

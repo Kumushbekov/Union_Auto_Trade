@@ -1,0 +1,39 @@
+.model_auto {
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    margin-right: 5px;
+    border-radius: 5%;
+}
+
+.price_auto {
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    margin-right: 5px;
+    border-radius: 5%;
+
+}
+
+.link_img {
+    width: 200px;
+    height: 30px;
+    font-size: larger;
+    margin-right: 5px;
+    border-radius: 5%;
+
+}
+
+.create {
+    width: 200px;
+    height: 34px;
+    font-size: large;
+    border-radius: 5%;
+    border-radius: 5%;
+}
+
+.search {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
